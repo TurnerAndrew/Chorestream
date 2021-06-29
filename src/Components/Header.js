@@ -5,15 +5,11 @@ const Header = () => {
         <header className='header'>
             <h1 className='logo-card'>ChoreStream</h1>
             <nav className='header-nav'>
-                <ul className='nav-links'>
-                    <li className='nav-item'>Home</li>
-                    <li className='nav-item'>How it Works</li>
-                    <li className='nav-item'>Contact</li>
-                    <div className='button-container'>
-                        <button className='auth-button'>Login</button>
-                        <button className='auth-button'>Register</button>
-                    </div>
-                </ul>
+                <h5 className='nav-item'>Home</h5>
+                <h5 className='nav-item'>How it Works</h5>
+                <h5 className='nav-item'>Contact</h5>
+                <button className='auth-button'>Login</button>
+                <button className='auth-button'>Register</button>
             </nav>
         </header>
     )

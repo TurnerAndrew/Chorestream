@@ -12,31 +12,23 @@
 }
 
 .logo-card {
-  color: #66E17C;
+  color: #4bb85f;
   font-size: 2.5rem;
+  margin-left: 2.5%;
 }
 
 .header-nav {
-  width: 50vw;
   height: 100%;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
-.button-container {
   width: 25%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .auth-button {
   color: #507DBC;
   background-color: #90F3FF;
   border: solid 2px #507DBC;
-  height: 150%;
-  border-radius: .25rem;
+  height: 2rem;
+  border-radius: .5rem;
 }
