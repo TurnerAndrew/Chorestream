@@ -28,7 +28,7 @@ module.exports = {
             return res.status(404).send('There is no account associated with that email address, please register.')
         }
 
-        const isAuthenticated = await bcryp.compareSync(password, existingUser.hash)
+        const isAuthenticated = await bcrypt.compareSync(password, existingUser.hash)
 
         if(!isAuthenticated) {
             return res.status(409).send('Incorrect password, please try again.')
